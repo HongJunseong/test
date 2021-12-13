@@ -1,7 +1,9 @@
 import re
 
 def solution(new_id):
+
     answer = ''
+
     beflen = len(new_id)
     
     new_id = new_id.lower()
@@ -27,5 +29,3 @@ def solution(new_id):
         
     answer = answer + new_id
     return answer
-
-def ad(a): print(a)
