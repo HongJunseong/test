@@ -27,3 +27,5 @@ def solution(new_id):
         
     answer = answer + new_id
     return answer
+
+def ad(a): print(a)
