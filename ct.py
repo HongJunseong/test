@@ -30,3 +30,6 @@ def solution(new_id):
         
     answer = answer + new_id
     return answer
+
+print(solution("#!@#Jun!seon@*g#."))
+#특수 문자들이 제거되며 junseong이 출력됨
